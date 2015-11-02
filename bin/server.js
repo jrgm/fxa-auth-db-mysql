@@ -9,6 +9,11 @@ var logger = require('../lib/logging')('bin.server')
 var DB = require('../lib/db/mysql')(logger, error)
 var notifier = require('../lib/notifier.js')(logger, config)
 
+process.on('SIGUSR2', function() {
+  console.log('Got SIGUSR2. Calling gc()')
+  global.gc()
+})
+
 function shutdown() {
   process.nextTick(process.exit)
 }
