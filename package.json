@@ -32,7 +32,7 @@
     "fxa-jwtool": "0.4.0",
     "mozlog": "2.0.0",
     "mysql": "2.3.2",
-    "request": "2.53.0",
+    "request": "2.65.0",
     "restify": "2.8.2"
   },
   "devDependencies": {
