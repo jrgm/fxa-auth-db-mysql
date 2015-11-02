@@ -192,5 +192,5 @@ module.exports = function (fs, path, url, convict) {
   conf.loadFile(files)
   conf.validate()
 
-  return conf.getProperties()
+  return conf.root()
 }
