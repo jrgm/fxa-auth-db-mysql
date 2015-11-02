@@ -26,7 +26,7 @@
   },
   "license": "MPL-2.0",
   "dependencies": {
-    "bluebird": "2.1.3",
+    "bluebird": "2.10.2",
     "clone": "0.2.0",
     "convict": "0.4.2",
     "fxa-jwtool": "0.4.0",
